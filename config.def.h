@@ -27,8 +27,8 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "firefox-esr",  NULL,    NULL,       1 << 0,       0,           -1 },
-	{ "librewolf",  NULL,    NULL,       1 << 0,       0,           -1 },
+	{ "firefox",  NULL,    NULL,       1 << 0,       0,           -1 },
+	{ "Telegram",  NULL,    NULL,       1 << 1,       0,           -1 },
         { "xfreerdp",  NULL,       NULL,       1 << 2,       0,           -1 },
         { "steam",  NULL,       NULL,       1 << 4,       0,           -1 },
         { "alacritty",  NULL,       NULL,       1 << 3,       0,           -1 },
